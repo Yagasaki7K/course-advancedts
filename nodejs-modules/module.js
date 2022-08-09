@@ -26,3 +26,9 @@ class People {
 }
 
 exports.People = People
+
+//
+
+module.exports = function(x, y) {
+    return x * y
+}

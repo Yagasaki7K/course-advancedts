@@ -22,3 +22,15 @@ const axios = require('axios')
 axios('https://jsonplaceholder.typicode.com/users')
 .then(response => console.log(response.data))
 .catch(error => console.log(error))
+
+//
+
+const multiply = require('./module')
+console.log(multiply(2, 3)) // 6
+
+//
+
+const Dog = require('./module')
+
+const LilDog = new Dog('Lil Dog')
+LilDog.sayName() // My name is Lil Dog
